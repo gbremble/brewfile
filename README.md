@@ -1,17 +1,17 @@
 # brewfile
 
-## Install
+### Install
 
 `brew bundle` is automatically installed when run.
 
 ### Run
 
-To install all of the binaries and apps in the Brewfile run:
+Install all of the binaries and apps in the Brewfile by running:
 
     $ brew bundle
 
 ### Check
 
-You can check there's anything to install/upgrade in the `Brewfile` by running:
+You can check if there’s anything to install or upgrade in the `Brewfile` by running:
 
     $ brew bundle check
