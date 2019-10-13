@@ -1,13 +1,17 @@
 # brewfile
 
-### Install Brew Bundle
+## Install
 
-    $ brew tap Homebrew/bundle
+`brew bundle` is automatically installed when run.
 
-### Run Brewfile
+### Run
 
-To install all of the binaries/apps in the Brewfile run:
+To install all of the binaries and apps in the Brewfile run:
 
     $ brew bundle
 
-Re-running the command will install any available updates.
+### Check
+
+You can check there's anything to install/upgrade in the `Brewfile` by running:
+
+    $ brew bundle check
