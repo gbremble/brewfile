@@ -1,9 +1,9 @@
-cask_args appdir: "/Applications"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/cask-drivers"
 tap "heroku/brew"
+cask_args appdir: "/Applications"
 
 # install homebrew packages
 brew "python"
