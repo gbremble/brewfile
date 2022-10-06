@@ -2,7 +2,6 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/cask-drivers"
-tap "heroku/brew"
 cask_args appdir: "/Applications"
 
 # install homebrew packages
@@ -11,20 +10,18 @@ brew "ffmpeg"
 brew "handbrake"
 brew "mkvtoolnix"
 brew "mp4v2"
-brew "mysql"
-brew "n"
+# brew "mysql"
+# brew "n"
 brew "pipenv"
 brew "ruby"
 brew "youtube-dl"
-brew "heroku/brew/heroku"
+brew "yt-dlp"
 
 # install non-MAS apps
-cask "aerial"
 cask "appcleaner"
 cask "backblaze"
 cask "bartender"
 cask "bbedit"
-cask "dash"
 cask "firefox"
 cask "google-chrome"
 cask "handbrake"
@@ -34,8 +31,6 @@ cask "microsoft-edge"
 cask "netnewswire"
 cask "quitter"
 cask "screens-connect"
-cask "sony-ps4-remote-play"
-cask "spotify"
 cask "steam"
 cask "superduper"
 cask "visual-studio-code"
@@ -68,8 +63,8 @@ mas "1Password", id: 1333542190
 mas "Affinity Designer", id: 824171161
 mas "Affinity Photo", id: 824183456
 mas "Amphetamine", id: 937984704
-mas "BBEdit", id: 404009241
 mas "DaisyDisk", id: 411643860
+mas "Darkroom", id: 953286746
 mas "Deliveries", id: 290986013
 mas "Developer", id: 640199958
 mas "GarageBand", id: 682658836
@@ -80,11 +75,8 @@ mas "Keynote", id: 409183694
 mas "Mactracker", id: 430255202
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft OneNote", id: 784801555
-mas "Microsoft Outlook", id: 985367838
-mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Word", id: 462054704
 mas "Numbers", id: 409203825
-mas "OneDrive", id: 823766827
 mas "Pages", id: 409201541
 mas "Pastebot", id: 1179623856
 mas "PCalc", id: 403504866
@@ -93,8 +85,6 @@ mas "Pixelmator Pro", id: 1289583905
 mas "Playgrounds", id: 1496833156
 mas "Screens", id: 1224268771
 mas "Slack", id: 803453959
-mas "Soulver", id: 413965349
-mas "Speedtest", id: 1153157709
 mas "StopTheMadness", id: 1376402589
 mas "The Unarchiver", id: 425424353
 mas "Things", id: 904280696
